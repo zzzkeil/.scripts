@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Kitty Btop Panel
+Exec=sh -c "sleep 10 && WAYLAND_DISPLAY=wayland-0 /usr/bin/kitty +kitten panel --layer bottom --edge background --override-exclusive-zone -o background_opacity=0.2 -o background=black --output-name DP-4 btop"
+Hidden=false
+NoDisplay=false
+X-KDE-AutostartScript=true
+Comment=Start btop as a background panel on DP-4
